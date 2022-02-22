@@ -114,7 +114,7 @@ typedef void (^SVProgressHUDDismissCompletion)(void);
 + (void)setAccessibilityAnnouncementEnabled:(BOOL)accessibilityAnnouncementEnabled; // default is YES
 
 #pragma mark - Show Methods
-
++ (NSBundle*)imageBundle;
 + (void)show;
 + (void)showWithMaskType:(SVProgressHUDMaskType)maskType __attribute__((deprecated("Use show and setDefaultMaskType: instead.")));
 + (void)showWithStatus:(nullable NSString*)status;
